@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.santexnik {
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+}
+.wrapper_son {
+  gap: 10px;
+}
+.headline {
+  font-size: 30px;
+}
+.wrapper_childern {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.wrapper_childern:hover {
+  border: 1px solid black;
+}
+.img {
+  background-color: #f3f3f3;
+  border-radius: 7px;
+}
+.wrapper__things {
+  display: flex;
+  justify-content: space-between;
+}
+.headline__two {
+  margin-top: 40px;
+}
+.headline__two__text {
+  font-size: 28px;
+}
+.anounce_body {
+  width: 275px;
+}
+.temir__img {
+  width: 270px;
+  height: 270px;
+  background-color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.money {
+  font-size: 24px;
+}
+.btn__buy {
+  width: 260px;
+  background-color: #25a1d3;
+  border-radius: 62px;
+  color: white;
+  border: 0;
+  padding: 13px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.btn {
+  width: 260px;
+  border: 1px solid #25a1d3;
+  color: #25a1d3;
+  background-color: white;
+  padding: 15px;
+  border-radius: 62px;
+  cursor: pointer;
+}
+.saller {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+.anounce__head {
+  display: flex;
+  justify-content: space-evenly;
+}
